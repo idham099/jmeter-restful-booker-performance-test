@@ -22,8 +22,7 @@ $$\text{Auth Token Generation} \rightarrow \text{Create Booking} \rightarrow \te
 * **Reporting:** Automated HTML Dashboard Generator (`.jtl` logs parsing)
 
 
-<img width="1732" height="960" alt="image" src="https://github.com/user-attachments/assets/665c85c1-e455-457a-a144-eb3be458391b" />
-
+<img width="1732" height="960" alt="image" src="https://github.com/user-attachments/assets/19fd858d-d913-4533-a740-01c0e3d175a6" />
 
 
 

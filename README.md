@@ -21,9 +21,8 @@ $$\text{Auth Token Generation} \rightarrow \text{Create Booking} \rightarrow \te
 * **Correlation Mechanism:** JMeter JSON Extractor (`authToken`, `bookingId`)
 * **Reporting:** Automated HTML Dashboard Generator (`.jtl` logs parsing)
 
-
-<img width="1725" height="956" alt="image" src="https://github.com/user-attachments/assets/f9d61f97-2ee5-4377-a66e-f64896c296b3" />
-<img width="1733" height="941" alt="image" src="https://github.com/user-attachments/assets/41d1a509-ec1f-4161-bdaa-1b944b1e66e8" />
+<img width="1732" height="960" alt="Screenshot 2026-09-09 195201" src="https://github.com/user-attachments/assets/22911a45-66c4-4481-bcea-e6a366a63bc0" />
+<img width="1727" height="866" alt="Screenshot 2026-09-09 200040" src="https://github.com/user-attachments/assets/d623e7a7-ccd8-45d3-a476-cba43e7dc03a" />
 
 
 ---

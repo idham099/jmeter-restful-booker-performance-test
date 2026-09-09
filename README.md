@@ -31,6 +31,7 @@ $$\text{Auth Token Generation} \rightarrow \text{Create Booking} \rightarrow \te
 * Protocol Metrics: All response codes verified with HTTP 200 OK
 
 <img width="1707" height="962" alt="Screenshot 2026-09-09 200532" src="https://github.com/user-attachments/assets/ce9f9402-dddb-44ec-8049-080b330e8814" />
+<img width="1402" height="618" alt="image" src="https://github.com/user-attachments/assets/13e72a6d-4e63-4848-9283-20c3d7fb4a3e" />
 <img width="1432" height="648" alt="Screenshot 2026-09-09 200743" src="https://github.com/user-attachments/assets/5bc87e95-596e-43d1-b59b-37837a4beaca" />
 
 ---

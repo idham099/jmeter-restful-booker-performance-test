@@ -53,12 +53,12 @@ To ensure high reliability and zero false positives during execution, the test p
 ## ⚡ CLI Execution Strategy
 To eliminate GUI overhead during performance runs, tests are executed purely via CLI:
 
-# 1. Execute Load Test & Generate HTML Report
+1. Execute Load Test & Generate HTML Report
 ```
 jmeter -n -t "restful_booker_crud.jmx" -l "result.jtl" -e -o "report"
 ```
 
-# 2. Generate Report from Existing Log (.jtl)
+2. Generate Report from Existing Log (.jtl)
 ```
 jmeter -g "result.jtl" -o "report"
 ```
@@ -66,8 +66,8 @@ jmeter -g "result.jtl" -o "report"
 ---
 
 ## 📊 Performance Test Results & Key Metrics
-# 1. Execution Success Rate: 100% (0.00% Error Rate across all CRUD endpoints)
-# 2. Protocol Metrics: All response codes verified with HTTP 200 OK
+* Execution Success Rate: 100% (0.00% Error Rate across all CRUD endpoints)
+* Protocol Metrics: All response codes verified with HTTP 200 OK
 
 ---
 

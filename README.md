@@ -1,4 +1,9 @@
 # 🚀 E2E Performance Testing - Apache JMeter + Report
+![JMeter](https://img.shields.io/badge/Apache%20JMeter-v5.6.3-D22128?style=for-the-badge&logo=apachejmeter&logoColor=white)
+![Test Type](https://img.shields.io/badge/Test%20Type-Performance%20%26%20Load-blue?style=for-the-badge)
+![API](https://img.shields.io/badge/API-Restful--Booker-orange?style=for-the-badge)
+![License](https://img.shields.io/badge/License-GPL--3.0-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Passed%20(100%25)-brightgreen?style=for-the-badge)
 
 An industry-standard performance test automation suite built with **Apache JMeter**, implementing full CRUD lifecycle testing with dynamic authentication token handling, data-driven parameterization, and automated HTML Dashboard report generation.
 

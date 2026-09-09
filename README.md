@@ -6,7 +6,7 @@ An industry-standard performance test automation suite built with **Apache JMete
 
 ## 📌 Executive Summary
 
-This project evaluates the baseline performance, latency, and reliability of the **[Restful Booker API]((https://restful-booker.herokuapp.com/apidoc/index.html))** under automated request sequences. Instead of basic single-endpoint benchmarking, this suite executes a complete stateful user journey:
+This project evaluates the baseline performance, latency, and reliability of the **[Restful Booker API](https://restful-booker.herokuapp.com/apidoc/index.html)** under automated request sequences. Instead of basic single-endpoint benchmarking, this suite executes a complete stateful user journey:
 
 $$\text{Auth Token Generation} \rightarrow \text{Create Booking} \rightarrow \text{Get Booking Details} \rightarrow \text{Update Booking (PUT)} \rightarrow \text{Partial Update (PATCH)} \rightarrow \text{Delete Booking}$$
 

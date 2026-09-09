@@ -23,6 +23,7 @@ $$\text{Auth Token Generation} \rightarrow \text{Create Booking} \rightarrow \te
 
 
 <img width="1725" height="956" alt="image" src="https://github.com/user-attachments/assets/f9d61f97-2ee5-4377-a66e-f64896c296b3" />
+<img width="1733" height="941" alt="image" src="https://github.com/user-attachments/assets/41d1a509-ec1f-4161-bdaa-1b944b1e66e8" />
 
 
 ---

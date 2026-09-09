@@ -1,4 +1,4 @@
-# 🚀 E2E Performance Testing - Apache JMeter + HTML Report
+# 🚀 E2E Performance Testing - Apache JMeter + Report
 
 An industry-standard performance test automation suite built with **Apache JMeter**, implementing full CRUD lifecycle testing with dynamic authentication token handling, data-driven parameterization, and automated HTML Dashboard report generation.
 

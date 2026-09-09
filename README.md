@@ -15,6 +15,8 @@ This project evaluates the baseline performance, latency, and reliability of the
 
 $$\text{Auth Token Generation} \rightarrow \text{Create Booking} \rightarrow \text{Get Booking Details} \rightarrow \text{Update Booking (PUT)} \rightarrow \text{Partial Update (PATCH)} \rightarrow \text{Delete Booking}$$
 
+Here's the demo link: **[Demo Testing](https://youtu.be/HudA7XuNnkI)**
+
 ---
 
 ## 🛠️ Tech Stack & Architecture

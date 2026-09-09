@@ -15,8 +15,6 @@ This project evaluates the baseline performance, latency, and reliability of the
 
 $$\text{Auth Token Generation} \rightarrow \text{Create Booking} \rightarrow \text{Get Booking Details} \rightarrow \text{Update Booking (PUT)} \rightarrow \text{Partial Update (PATCH)} \rightarrow \text{Delete Booking}$$
 
-Here's the demo link: **[Demo Testing](https://youtu.be/HudA7XuNnkI)**
-
 ---
 
 ## 🛠️ Tech Stack & Architecture
@@ -27,6 +25,9 @@ Here's the demo link: **[Demo Testing](https://youtu.be/HudA7XuNnkI)**
 * **Data Parameterization:** CSV Data Set Config (Dynamic JSON payload injection)
 * **Correlation Mechanism:** JMeter JSON Extractor (`authToken`, `bookingId`)
 * **Reporting:** Automated HTML Dashboard Generator (`.jtl` logs parsing)
+
+* Here's the demo link: **[Demo Testing](https://youtu.be/HudA7XuNnkI)**
+
 
 <img width="1732" height="960" alt="Screenshot 2026-09-09 195201" src="https://github.com/user-attachments/assets/22911a45-66c4-4481-bcea-e6a366a63bc0" />
 <img width="1727" height="866" alt="Screenshot 2026-09-09 200040" src="https://github.com/user-attachments/assets/d623e7a7-ccd8-45d3-a476-cba43e7dc03a" />

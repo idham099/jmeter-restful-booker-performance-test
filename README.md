@@ -21,32 +21,8 @@ $$\text{Auth Token Generation} \rightarrow \text{Create Booking} \rightarrow \te
 * **Correlation Mechanism:** JMeter JSON Extractor (`authToken`, `bookingId`)
 * **Reporting:** Automated HTML Dashboard Generator (`.jtl` logs parsing)
 
----
 
-## 💡 Engineering Highlights & Critical Technical Solutions
-
-To ensure high reliability and zero false positives during execution, the test plan includes the following engineering configs:
-
-1. **Strict Protocol & Header Alignment (`418 I'm a Teapot` Resolution):**
-   * Configured explicit `Accept: application/json` and `Content-Type: application/json` across all HTTP Samplers to comply with Heroku API gateway requirements.
-
-2. **Dynamic Session Correlation:**
-   * Utilized `JSON Extractor` on `POST Auth Token` to capture `token` dynamically and pass it via `Cookie: token=${authToken}` headers in protected endpoints (`PUT`, `PATCH`, `DELETE`).
-
-3. **Data-Driven Parameterization:**
-   * Implemented custom CSV data binding (`booking_data.csv`) mapped directly to JSON payload schema:
-   ```json
-   {
-       "firstname" : "${firstname}",
-       "lastname" : "${lastname}",
-       "totalprice" : ${totalprice},
-       "depositpaid" : ${depositpaid},
-       "bookingdates" : {
-           "checkin" : "${checkin}",
-           "checkout" : "${checkout}"
-       },
-       "additionalneeds" : "${additionalneeds}"
-   }
+![Uploading image.png…]()
 
 ---
 

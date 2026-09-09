@@ -24,6 +24,14 @@ $$\text{Auth Token Generation} \rightarrow \text{Create Booking} \rightarrow \te
 <img width="1732" height="960" alt="Screenshot 2026-09-09 195201" src="https://github.com/user-attachments/assets/22911a45-66c4-4481-bcea-e6a366a63bc0" />
 <img width="1727" height="866" alt="Screenshot 2026-09-09 200040" src="https://github.com/user-attachments/assets/d623e7a7-ccd8-45d3-a476-cba43e7dc03a" />
 
+--- 
+
+## 📊 Performance Test Results & Key Metrics
+* Execution Success Rate: 100% (0.00% Error Rate across all CRUD endpoints)
+* Protocol Metrics: All response codes verified with HTTP 200 OK
+
+<img width="1707" height="962" alt="Screenshot 2026-09-09 200532" src="https://github.com/user-attachments/assets/ce9f9402-dddb-44ec-8049-080b330e8814" />
+<img width="1432" height="648" alt="Screenshot 2026-09-09 200743" src="https://github.com/user-attachments/assets/5bc87e95-596e-43d1-b59b-37837a4beaca" />
 
 ---
 
@@ -39,12 +47,6 @@ jmeter -n -t "restful_booker_crud.jmx" -l "result.jtl" -e -o "report"
 ```
 jmeter -g "result.jtl" -o "report"
 ```
-
----
-
-## 📊 Performance Test Results & Key Metrics
-* Execution Success Rate: 100% (0.00% Error Rate across all CRUD endpoints)
-* Protocol Metrics: All response codes verified with HTTP 200 OK
 
 ---
 

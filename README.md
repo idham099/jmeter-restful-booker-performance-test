@@ -27,7 +27,7 @@ $$\text{Auth Token Generation} \rightarrow \text{Create Booking} \rightarrow \te
 * **Reporting:** Automated HTML Dashboard Generator (`.jtl` logs parsing)
 
 
-Here's the demo link: **[Demo Testing](https://youtu.be/HudA7XuNnkI)** 
+Here's the demo link: 👉 **[Demo Testing](https://youtu.be/HudA7XuNnkI)** 
 
 
 <img width="1732" height="960" alt="Screenshot 2026-09-09 195201" src="https://github.com/user-attachments/assets/22911a45-66c4-4481-bcea-e6a366a63bc0" />

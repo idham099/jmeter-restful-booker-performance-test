@@ -1,0 +1,12 @@
+# 1. Abaikan seluruh berkas laporan HTML, JS, dan CSS di dalam folder report
+report/** linguist-detectable=false
+report/** linguist-vendored
+
+# 2. Abaikan berkas log, data CSV, dan hasil JTL dari statistik
+*.log linguist-detectable=false
+*.jtl linguist-detectable=false
+*.csv linguist-detectable=false
+
+# 3. Paksa GitHub mendeteksi berkas test plan JMeter (.jmx) sebagai XML (bahasa utama)
+*.jmx linguist-detectable=true
+*.jmx linguist-language=XML

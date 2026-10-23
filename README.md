@@ -1,4 +1,4 @@
-# E2E Performance Testing - Apache JMeter + CI/CD + Report
+# E2E Performance Testing - Apache JMeter + Report
 ![JMeter](https://img.shields.io/badge/Apache%20JMeter-v5.6.3-D22128?style=for-the-badge&logo=apachejmeter&logoColor=white)
 ![Test Type](https://img.shields.io/badge/Test%20Type-Performance%20%26%20Load-blue?style=for-the-badge)
 ![API](https://img.shields.io/badge/API-Restful--Booker-orange?style=for-the-badge)

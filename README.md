@@ -4,6 +4,7 @@
 ![API](https://img.shields.io/badge/API-Restful--Booker-orange?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-GPL--3.0-green?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Passed%20(100%25)-brightgreen?style=for-the-badge)
+![JMeter CI/CD](https://github.com/idham099/jmeter-restful-booker-performance-test/actions/workflows/jmeter-performance-test.yml/badge.svg)
 
 An industry-standard performance test automation suite built with **Apache JMeter**, implementing full CRUD lifecycle testing with dynamic authentication token handling, data-driven parameterization, and automated HTML Dashboard report generation.
 

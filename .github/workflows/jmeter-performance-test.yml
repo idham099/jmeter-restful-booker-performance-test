@@ -21,14 +21,14 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Setup JMeter
-        uses: kulya/setup-jmeter@v5.1
-        with:
-          jmeter-version: '5.6.3'
-
-      - name: Run JMeter Test & Generate HTML Report
+      - name: Download & Extract JMeter
         run: |
-          jmeter -n -t restful_booker_crud.jmx -l result.jtl -e -o github_report
+          curl -sO https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.6.3.tgz
+          tar -xzf apache-jmeter-5.6.3.tgz
+
+      - name: Run JMeter Test & Generate Report
+        run: |
+          ./apache-jmeter-5.6.3/bin/jmeter -n -t restful_booker_crud.jmx -l result.jtl -e -o github_report
 
       - name: Upload HTML Report Artifact
         if: always()

@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Java JDK
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           java-version: '17'
           distribution: 'temurin'
@@ -26,9 +26,14 @@ jobs:
           curl -sO https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.6.3.tgz
           tar -xzf apache-jmeter-5.6.3.tgz
 
-      - name: Run JMeter Test & Generate Report
+      - name: Locate JMX & Execute Test
         run: |
-          ./apache-jmeter-5.6.3/bin/jmeter -n -t restful_booker_crud.jmx -l result.jtl -e -o github_report
+          # Cari file .jmx secara otomatis di direktori utama
+          JMX_FILE=$(ls *.jmx | head -n 1)
+          echo "Found Test Plan: $JMX_FILE"
+          
+          # Jalankan JMeter Non-GUI
+          ./apache-jmeter-5.6.3/bin/jmeter -n -t "$JMX_FILE" -l result.jtl -e -o github_report
 
       - name: Upload HTML Report Artifact
         if: always()

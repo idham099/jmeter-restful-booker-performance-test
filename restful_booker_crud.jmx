@@ -28,7 +28,7 @@
       </ThreadGroup>
       <hashTree>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config">
-          <stringProp name="filename">D:\Aplikasi\jmeter\booking_data.csv</stringProp>
+          <stringProp name="filename">booking_data.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">firstname,lastname,totalprice,depositpaid</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>

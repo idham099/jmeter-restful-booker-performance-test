@@ -15,16 +15,10 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Java JDK
-        uses: actions/setup-java@v4
+      - name: Run JMeter Test Plan
+        uses: rbhadti/jmeter-action@v1.0.0
         with:
-          java-version: '17'
-          distribution: 'temurin'
-
-      - name: Run JMeter Test
-        uses: qa-tools/jmeter-action@v1.0.1
-        with:
-          test-plan-path: 'restful_booker_crud.jmx'
+          testFilePath: 'restful_booker_crud.jmx'
           args: '-l result.jtl -e -o github_report'
 
       - name: Upload HTML Report Artifact

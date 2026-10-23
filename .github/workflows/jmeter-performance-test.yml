@@ -15,24 +15,17 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Set up Java JDK
+      - name: Setup Java JDK
         uses: actions/setup-java@v4
         with:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Check Repository Files
-        run: ls -la
-
-      - name: Install Apache JMeter
-        run: |
-          curl -O https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.6.3.tgz
-          tar -xvf apache-jmeter-5.6.3.tgz
-
-      - name: Execute JMeter Test Plan & Generate HTML Report
-        run: |
-          chmod +x apache-jmeter-5.6.3/bin/jmeter
-          ./apache-jmeter-5.6.3/bin/jmeter -n -t restful_booker_crud.jmx -l result.jtl -e -o github_report
+      - name: Run JMeter Test
+        uses: qa-tools/jmeter-action@v1.0.1
+        with:
+          test-plan-path: 'restful_booker_crud.jmx'
+          args: '-l result.jtl -e -o github_report'
 
       - name: Upload HTML Report Artifact
         if: always()
